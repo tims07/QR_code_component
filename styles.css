@@ -32,8 +32,8 @@ body {
     width: 300px;
     height: 400px;
     background-color: var(--white-color);
-    border-radius: 8px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 25px;
 
     
 }
@@ -41,7 +41,7 @@ body {
 img {
     width: 250px;
     height: 250px;
-    border-radius: 7px;
+    border-radius: 10px;
     margin-top: 5px;
     padding: 5px 0;
 }
@@ -68,4 +68,9 @@ img {
     color: hsl(228, 45%, 44%); 
 }
 
-
+/* Media Query */
+ @media screen and (max-width: 375px ) {
+    body {
+      
+    }
+ }
